@@ -1,0 +1,34 @@
+{
+    "name": "phpx/ext",
+    "description": "PHPX ExtJs Library",
+    "type": "library",
+    "license": "MIT License",
+    "keywords": [
+        "phpx",
+        "extenstion",
+        "library",
+        "extjs",
+        "direct",
+        "open source"
+    ],
+    "homepage": "https://ninth.not-bad.org",
+    "authors" : [{
+        "name" : "Psyduck.Mans",
+        "email" : "t-bird.mans@hotmail.com",
+        "role" : "RD"
+    }],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "PHPX\\Ext\\" : "src/PHPX/Ext"
+        }
+    },
+    "support" : {
+        "source" : "https://github.com/PsyduckMans/PHPX-Ext",
+        "issues" : "https://github.com/PsyduckMans/PHPX-Ext/issues",
+        "wiki" : "https://github.com/PsyduckMans/PHPX-Ext/wiki",
+        "email" : "t-bird.mans@hotmail.com"
+    }
+}
